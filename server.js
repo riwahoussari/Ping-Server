@@ -1,10 +1,10 @@
 const axios = require('axios');
 
-const mainServerUrl = 'http://your-main-server-url.com'; // Replace with your main server URL
+const coffeeHubServerUrl = 'https://coffeehub-u2y1.onrender.com/'; // Replace with your main server URL
 
 const pingServer = async () => {
     try {
-        await axios.get(mainServerUrl);
+        await axios.get(coffeeHubServerUrl);
         console.log('Pinged the main server successfully');
     } catch (error) {
         console.error('Error pinging the main server:', error);
