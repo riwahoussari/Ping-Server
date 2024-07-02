@@ -1,0 +1,14 @@
+{
+  "name": "server-ping",
+  "version": "1.0.0",
+  "description": "A script to ping the main server to keep it awake",
+  "main": "pingServer.js",
+  "scripts": {
+    "start": "node pingServer.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
