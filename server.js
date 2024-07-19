@@ -22,6 +22,11 @@ pingServer();
 
 
 //port
+app.get('*', (req, res) => {
+  console.log("* get request");
+  res.json({res: "hey"});
+  console.log("* responded");
+});
 app.listen(PORT, () => {
   console.log(`Server is up and running`);
 });
